@@ -1,0 +1,109 @@
+{
+  "Defs": [
+    {
+      "Path": "log.js_161_168",
+      "Name": "message",
+      "Kind": "var",
+      "File": "log.js",
+      "DefStart": 161,
+      "DefEnd": 168,
+      "Data": {
+        "Type": "fn()",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "log.js_161_168"
+    },
+    {
+      "Path": "log.js_305_309",
+      "Name": "serv",
+      "Kind": "var",
+      "File": "log.js",
+      "DefStart": 305,
+      "DefEnd": 309,
+      "Data": {
+        "Type": "Server",
+        "Keyword": "var",
+        "Kind": "var",
+        "Separator": " "
+      },
+      "TreePath": "log.js_305_309"
+    },
+    {
+      "Path": "test/log1.js_15_26",
+      "Name": "oneFunction",
+      "Kind": "property",
+      "File": "test/log1.js",
+      "DefStart": 15,
+      "DefEnd": 26,
+      "Data": {
+        "Type": "fn()",
+        "Keyword": "property",
+        "Kind": "property",
+        "Separator": " "
+      },
+      "TreePath": "test/log1.js_15_26"
+    }
+  ],
+  "Refs": [
+    {
+      "DefPath": "log.js_161_168",
+      "Def": true,
+      "File": "log.js",
+      "Start": 161,
+      "End": 168
+    },
+    {
+      "DefPath": "log.js_305_309",
+      "Def": true,
+      "File": "log.js",
+      "Start": 305,
+      "End": 309
+    },
+    {
+      "DefPath": "test/log1.js_15_26",
+      "Def": true,
+      "File": "test/log1.js",
+      "Start": 15,
+      "End": 26
+    }
+  ],
+  "Docs": [
+    {
+      "Path": "log.js_212_214",
+      "Format": "",
+      "Data": "File I/O is provided by simple wrappers around standard POSIX functions. To use this module do require('fs').\nAll the methods have asynchronous and synchronous forms."
+    },
+    {
+      "Path": "log.js_276_283",
+      "Format": "",
+      "Data": "Expose the root command."
+    },
+    {
+      "Path": "log.js_28_35",
+      "Format": "",
+      "Data": "Expose the root command."
+    },
+    {
+      "Path": "log.js_335_336",
+      "Format": "",
+      "Data": "Save the previous value of the `_` variable."
+    },
+    {
+      "Path": "log.js_337_341",
+      "Format": "",
+      "Data": "Produce a duplicate-free version of the array. If the array has already\nbeen sorted, you have the option of using a faster algorithm.\nAliased as `unique`."
+    },
+    {
+      "Path": "log.js_92_93",
+      "Format": "",
+      "Data": "Save the previous value of the `_` variable."
+    },
+    {
+      "Path": "test/log1.js_0_6",
+      "Format": "",
+      "Data": "Node has a simple module loading system. In Node, files and modules are in one-to-one correspondence."
+    }
+  ]
+}

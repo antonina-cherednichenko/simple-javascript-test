@@ -3,16 +3,26 @@
   "description": "node.js sample package for Sourcegraph",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sourcegraph/nodejs-sample"
+    "url": "git+https://github.com/sourcegraph/nodejs-sample.git"
   },
-  "main": "animal",
+  "main": "log",
   "version": "0.0.1",
-  "author": {
-    "name": "Quinn Slack",
-    "email": "sqs@sourcegraph.com"
-  },
+  "author": "Quinn Slack <sqs@sourcegraph.com>",
   "devDependencies": {
     "mocha": "1.10.0",
     "should": "~1.2.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/sourcegraph/nodejs-sample/issues"
+  },
+  "homepage": "https://github.com/sourcegraph/nodejs-sample#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "underscore": "^1.8.3",
+    "tern": "^0.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
